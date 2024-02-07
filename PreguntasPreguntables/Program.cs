@@ -32,6 +32,7 @@
                     MsgNextScreen("Press any key to exit");
                     break;
                 default:
+                    MsgNextScreen("Error. Press any key to return to the menu");
                     break;
             }
         }
