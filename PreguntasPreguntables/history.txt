@@ -1,10 +1,10 @@
 When did the first World War end?
-1920,1916,1918,1918
+1920,1916,1918,1918:1918
 Who is the first country to put a human into orbit?
-United States of America,Soviet Union, China, Germany
+United States of America,Soviet Union, China, Germany:Soviet Union
 Who was the first president of the United States of America?
-Obama,Bush,Washington,Tyler
+Obama,Bush,Washington,Tyler:Washington
 What year did the Berlin Wall fall?
-1989,1990,1982,1988
+1989,1990,1982,1988:1989
 What year did the Spanish Civil War begin?
-1939,1936,1934,1932
+1939,1936,1934,1932:1936
