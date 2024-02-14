@@ -41,8 +41,8 @@
         {
             Console.Clear();
             Console.WriteLine("1 - History");
-            Console.WriteLine("2 - Sport");
-            Console.WriteLine("3 - Music");
+            Console.WriteLine("2 - Sports");
+            Console.WriteLine("3 - Musics");
             Console.WriteLine("4 - Geography");
             Console.WriteLine("5 - Movies");
             Console.WriteLine("6 - Science");

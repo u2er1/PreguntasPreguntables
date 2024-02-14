@@ -1,0 +1,8 @@
+Michael Jackson is considered the king of?
+Pop,Funk,Regeton,Jazz:Pop
+Who is the artist who has won the most Grammys?
+TaylorSwift,SelenaGomez,BadBunny,FreddyMercury:TaylorSwift
+What song was the most listened to in 2015 on Spotify?
+Sugar,Here,Stories,Title:Sugar
+What musical genre did Freddie Mercury dominate?
+Jazz,Rock,Pop,Bachata:Rock
