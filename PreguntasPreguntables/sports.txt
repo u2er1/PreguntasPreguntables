@@ -1,10 +1,5 @@
 How many Champions Leagues does Madrid have?
-20,13,9,14:14
 Who won the 2023 Laureus trophy?
-Nadal,Djokovic,Messi,Bolt:Messi
 Normally how many laps are there in F1?
-5,10,70,40:70
 Who won the 2010 world championship?
-Spain,Holland,France,Argentina:Spain
 What board game is considered a sport?
-Uno,Chess,Solitario,Poker:Chess

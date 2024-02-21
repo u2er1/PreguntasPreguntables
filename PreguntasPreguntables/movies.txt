@@ -1,8 +1,4 @@
 In what year was the Titanic released?
-1988,1998,1889,1968:1998
 How many Oscars does Leonardo Dicaprio have?
-0,5,1,7:1
 How many novels does Harry Potter have?
-2,5,4,7:7
 What's the color of the Avatar characters?
-blue,red,pink,black:blue

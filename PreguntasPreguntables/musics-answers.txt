@@ -1,0 +1,5 @@
+Pop,Funk,Regeton,Jazz:Pop
+TaylorSwift,SelenaGomez,BadBunny,FreddyMercury:TaylorSwift
+Sugar,Here,Stories,Title:Sugar
+Jazz,Rock,Pop,Bachata:Rock
+fa,sol,re,mi:re
