@@ -1,0 +1,5 @@
+Amazon River,Nile River,Río Yangzi,Mississippi River:Nile River
+China,EEUU,Rusia,India:China
+Artic,Atlantic,Pacific,Indian:Pacific
+Toronto,Vancuver,Ottawa,Victoria:Ottawa
+Amercia,Asia,Europe,Africa:Asia

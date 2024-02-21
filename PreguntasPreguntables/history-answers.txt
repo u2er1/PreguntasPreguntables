@@ -1,0 +1,5 @@
+1920,1916,1918,1918:1918
+United States of America,Soviet Union,China,Germany:Soviet Union
+Obama,Bush,Washington,Tyler:Washington
+1989,1990,1982,1988:1989
+1939,1936,1934,1932:1936
