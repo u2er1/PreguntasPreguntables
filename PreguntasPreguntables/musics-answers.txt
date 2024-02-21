@@ -2,4 +2,4 @@ Pop,Funk,Regeton,Jazz:Pop
 Taylor Swift,Selena Gomez,Bad Bunny,Freddy Mercury:Taylor Swift
 Sugar,Here,Stories,Title:Sugar
 Jazz,Rock,Pop,Bachata:Rock
-fa,sol,re,mi:re
+fa,sol,la,mi:mi
