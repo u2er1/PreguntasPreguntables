@@ -6,6 +6,7 @@ namespace PreguntasPreguntables
     {
         static void Main(string[] args)
         {
+            //Menu
             ConsoleKeyInfo key;
             do
             {
@@ -40,6 +41,9 @@ namespace PreguntasPreguntables
             } while (key.Key != ConsoleKey.D0);
         }
 
+        /// <summary>
+        /// Function to show the diferent options
+        /// </summary>
         public static void ShowOptions()
         {
             Console.Clear();
@@ -57,6 +61,11 @@ namespace PreguntasPreguntables
             Console.ReadKey();
         }
 
+        /// <summary>
+        /// Function to read and print the question
+        /// </summary>
+        /// <param name="fileName">The name of the file where the question is located</param>
+        /// <param name="nQuestion">Number of the question</param>
         public static void ShowQuestion(string fileName, int nQuestion)
         {
             StreamReader sr = new StreamReader(fileName);
@@ -76,6 +85,12 @@ namespace PreguntasPreguntables
             Console.WriteLine(linea);
         }
 
+        /// <summary>
+        /// Function to read the answers
+        /// </summary>
+        /// <param name="fileName">The name of the file where the ansers are located</param>
+        /// <param name="nQuestion">Number of the question you want the asnwers</param>
+        /// <returns>A string with the diferents anwers</returns>
         public static string ShowAnswers(string fileName, int nQuestion)
         {
             StreamReader sr = new StreamReader($"{fileName}-answers.txt");
@@ -94,6 +109,9 @@ namespace PreguntasPreguntables
             return linea;
         }
 
+        /// <summary>
+        /// Function to show the diferent questions and answers.
+        /// </summary>
         public static void HistoryTopic()
         {
             Console.Clear();
@@ -148,7 +166,7 @@ namespace PreguntasPreguntables
                         case ConsoleKey.D4:
                             if (fields2[3] == fields[1])
                             {
-                                Console.WriteLine("Correcte. Press any key to return to the menu");
+                                MsgNextScreen("Correcte. Press any key to return to the menu");
                                 correcte = true;
                             }
                             else MsgNextScreen("Incorrect. Press any key to return to the menu");
@@ -163,6 +181,10 @@ namespace PreguntasPreguntables
             }
         
         }
+
+        /// <summary>
+        /// Function to show the diferent questions and answers.
+        /// </summary>
         public static void ScienceTopic()
         {
             Console.Clear();
@@ -218,7 +240,7 @@ namespace PreguntasPreguntables
                         case ConsoleKey.D4:
                             if (fields2[3] == fields[1])
                             {
-                                Console.WriteLine("Correcte. Press any key to return to the menu");
+                                MsgNextScreen("Correcte. Press any key to return to the menu");
                                 correcte = true;
                             }
                             else MsgNextScreen("Incorrect. Press any key to return to the menu");
@@ -233,6 +255,9 @@ namespace PreguntasPreguntables
             }
 
         }
+        /// <summary>
+        /// Function to show the diferent questions and answers.
+        /// </summary>
         public static void GeograpyTopic()
         {
             Console.Clear();
@@ -288,7 +313,7 @@ namespace PreguntasPreguntables
                         case ConsoleKey.D4:
                             if (fields2[3] == fields[1])
                             {
-                                Console.WriteLine("Correcte. Press any key to return to the menu");
+                                MsgNextScreen("Correcte. Press any key to return to the menu");
                                 correcte = true;
                             }
                             else MsgNextScreen("Incorrect. Press any key to return to the menu");
