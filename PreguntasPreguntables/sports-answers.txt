@@ -1,0 +1,5 @@
+20,13,9,14:14
+Nadal,Djokovic,Messi,Bolt:Messi
+5,10,70,40:70
+Spain,Holland,France,Argentina:Spain
+Uno,Chess,Solitario,Poker:Chess

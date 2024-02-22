@@ -19,13 +19,16 @@ namespace PreguntasPreguntables
                         HistoryTopic();
                         break;
                     case ConsoleKey.D2:
+                        SportsTopic();
                         break;
                     case ConsoleKey.D3:
+                        MusicTopic();
                         break;
                     case ConsoleKey.D4:
                         GeograpyTopic();
                         break;
                     case ConsoleKey.D5:
+                        MoviesTopic();
                         break;
                     case ConsoleKey.D6:
                         ScienceTopic();
@@ -48,8 +51,8 @@ namespace PreguntasPreguntables
         {
             Console.Clear();
             Console.WriteLine("1 - History");
-            Console.WriteLine("2 - Sport");
-            Console.WriteLine("3 - Music");
+            Console.WriteLine("2 - Sports");
+            Console.WriteLine("3 - Musics");
             Console.WriteLine("4 - Geography");
             Console.WriteLine("5 - Movies");
             Console.WriteLine("6 - Science");
@@ -281,6 +284,226 @@ namespace PreguntasPreguntables
                 do
                 {
                     ShowQuestion("geograpy.txt", i);
+                    Console.WriteLine(sb.ToString());
+                    key = Console.ReadKey();
+                    Console.Clear();
+                    switch (key.Key)
+                    {
+                        case ConsoleKey.D1:
+                            if (fields2[0] == fields[1])
+                            {
+                                MsgNextScreen("Correcte. Press any key to return to the menu");
+                                correcte = true;
+                            }
+                            else MsgNextScreen("Incorrect. Press any key to return to the menu");
+                            break;
+                        case ConsoleKey.D2:
+                            if (fields2[1] == fields[1])
+                            {
+                                MsgNextScreen("Correcte. Press any key to return to the menu");
+                                correcte = true;
+                            }
+                            else MsgNextScreen("Incorrect. Press any key to return to the menu");
+                            break;
+                        case ConsoleKey.D3:
+                            if (fields2[2] == fields[1])
+                            {
+                                MsgNextScreen("Correcte. Press any key to return to the menu");
+                                correcte = true;
+                            }
+                            else MsgNextScreen("Incorrect. Press any key to return to the menu");
+                            break;
+                        case ConsoleKey.D4:
+                            if (fields2[3] == fields[1])
+                            {
+                                MsgNextScreen("Correcte. Press any key to return to the menu");
+                                correcte = true;
+                            }
+                            else MsgNextScreen("Incorrect. Press any key to return to the menu");
+                            break;
+                        default:
+                            MsgNextScreen("Error. Press any key to return to the menu");
+                            break;
+                    }
+
+                } while (!correcte);
+                sb.Clear();
+            }
+
+        }
+
+        /// <summary>
+        /// Function to show the diferent questions and answers.
+        /// </summary>
+        public static void SportsTopic()
+        {
+            Console.Clear();
+            StringBuilder sb = new StringBuilder();
+            ConsoleKeyInfo key;
+            string answers;
+            string[] fields;
+            string[] fields2;
+
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.Clear();
+                answers = ShowAnswers("sports", i);
+                fields = answers.Split(":");
+                fields2 = fields[0].Split(",");
+                for (int j = 0; j < fields2.Length; j++)
+                {
+                    sb.Append($"{j + 1}.{fields2[j]} ");
+                }
+                bool correcte = false;
+                do
+                {
+                    ShowQuestion("sports.txt", i);
+                    Console.WriteLine(sb.ToString());
+                    key = Console.ReadKey();
+                    Console.Clear();
+                    switch (key.Key)
+                    {
+                        case ConsoleKey.D1:
+                            if (fields2[0] == fields[1])
+                            {
+                                MsgNextScreen("Correcte. Press any key to return to the menu");
+                                correcte = true;
+                            }
+                            else MsgNextScreen("Incorrect. Press any key to return to the menu");
+                            break;
+                        case ConsoleKey.D2:
+                            if (fields2[1] == fields[1])
+                            {
+                                MsgNextScreen("Correcte. Press any key to return to the menu");
+                                correcte = true;
+                            }
+                            else MsgNextScreen("Incorrect. Press any key to return to the menu");
+                            break;
+                        case ConsoleKey.D3:
+                            if (fields2[2] == fields[1])
+                            {
+                                MsgNextScreen("Correcte. Press any key to return to the menu");
+                                correcte = true;
+                            }
+                            else MsgNextScreen("Incorrect. Press any key to return to the menu");
+                            break;
+                        case ConsoleKey.D4:
+                            if (fields2[3] == fields[1])
+                            {
+                                MsgNextScreen("Correcte. Press any key to return to the menu");
+                                correcte = true;
+                            }
+                            else MsgNextScreen("Incorrect. Press any key to return to the menu");
+                            break;
+                        default:
+                            MsgNextScreen("Error. Press any key to return to the menu");
+                            break;
+                    }
+
+                } while (!correcte);
+                sb.Clear();
+            }
+        }
+
+        /// <summary>
+        /// Function to show the diferent questions and answers.
+        /// </summary>
+        public static void MoviesTopic()
+        {
+            Console.Clear();
+            StringBuilder sb = new StringBuilder();
+            ConsoleKeyInfo key;
+            string answers;
+            string[] fields;
+            string[] fields2;
+
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.Clear();
+                answers = ShowAnswers("movies", i);
+                fields = answers.Split(":");
+                fields2 = fields[0].Split(",");
+                for (int j = 0; j < fields2.Length; j++)
+                {
+                    sb.Append($"{j + 1}.{fields2[j]} ");
+                }
+                bool correcte = false;
+                do
+                {
+                    ShowQuestion("movies.txt", i);
+                    Console.WriteLine(sb.ToString());
+                    key = Console.ReadKey();
+                    Console.Clear();
+                    switch (key.Key)
+                    {
+                        case ConsoleKey.D1:
+                            if (fields2[0] == fields[1])
+                            {
+                                MsgNextScreen("Correcte. Press any key to return to the menu");
+                                correcte = true;
+                            }
+                            else MsgNextScreen("Incorrect. Press any key to return to the menu");
+                            break;
+                        case ConsoleKey.D2:
+                            if (fields2[1] == fields[1])
+                            {
+                                MsgNextScreen("Correcte. Press any key to return to the menu");
+                                correcte = true;
+                            }
+                            else MsgNextScreen("Incorrect. Press any key to return to the menu");
+                            break;
+                        case ConsoleKey.D3:
+                            if (fields2[2] == fields[1])
+                            {
+                                MsgNextScreen("Correcte. Press any key to return to the menu");
+                                correcte = true;
+                            }
+                            else MsgNextScreen("Incorrect. Press any key to return to the menu");
+                            break;
+                        case ConsoleKey.D4:
+                            if (fields2[3] == fields[1])
+                            {
+                                MsgNextScreen("Correcte. Press any key to return to the menu");
+                                correcte = true;
+                            }
+                            else MsgNextScreen("Incorrect. Press any key to return to the menu");
+                            break;
+                        default:
+                            MsgNextScreen("Error. Press any key to return to the menu");
+                            break;
+                    }
+
+                } while (!correcte);
+                sb.Clear();
+            }
+        }
+
+        /// <summary>
+        /// Function to show the diferent questions and answers.
+        /// </summary>
+        public static void MusicTopic()
+        {
+            Console.Clear();
+            StringBuilder sb = new StringBuilder();
+            ConsoleKeyInfo key;
+            string answers;
+            string[] fields;
+            string[] fields2;
+
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.Clear();
+                answers = ShowAnswers("musics", i);
+                fields = answers.Split(":");
+                fields2 = fields[0].Split(",");
+                for (int j = 0; j < fields2.Length; j++)
+                {
+                    sb.Append($"{j + 1}.{fields2[j]} ");
+                }
+                bool correcte = false;
+                do
+                {
+                    ShowQuestion("musics.txt", i);
                     Console.WriteLine(sb.ToString());
                     key = Console.ReadKey();
                     Console.Clear();
